@@ -1,0 +1,88 @@
+body {
+    background-color: yellow;
+}
+
+.bl {
+    background: #fff;
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 3px;
+    padding: 20px;
+    box-sizing:border-box;
+    box-shadow: -5px -7px 10px rgba(8,8,8,1);
+
+    
+}
+
+label {
+  
+    cursor: pointer;
+}
+
+.form__bl {
+    margin: 20px 0;
+}
+
+.form__desc {
+    font-style: italic;
+    color: #777;
+    margin: 0;
+}
+
+
+.my__label {
+    /*новое свойство*/
+    font-weight: bold;
+    width: 150px;
+    display: inline-block;
+    color: #555;
+}
+
+.my__input {
+    /*новое свойство*/
+    outline: 0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    width: 230px;
+    border-radius: 3px;
+    /*новое свойство*/
+    box-sizing: border-box;
+}
+
+.btn {
+    /*новое свойство*/
+    outline: 0;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    background: #eee;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.my__span{
+    font-weight: bolder;
+    display: inline-block;
+    color: #142; 
+}
+.my__p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    outline: 0;
+    border-radius: 5px;
+}
+.btn:hover{
+    border: 1px solid white ;
+    color: aliceblue;
+    background-color: black;
+}
+.regist{
+    width: 250px;
+}

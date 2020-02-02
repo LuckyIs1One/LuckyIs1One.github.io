@@ -1,0 +1,111 @@
+body{
+    background-image: url(fon.jpg);
+    margin: 0px;
+}
+.block{
+    display:inline-block;
+    margin: 0px;
+    vertical-align: top;
+}
+.oplata{
+    background: url(oplatafon.jpg);
+    width: 700px;
+    height: 400px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border: 2px black solid ;
+        display:inline-block;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial Black ;
+}
+.text{
+      text-align: center;
+    font-size: 18px;
+    font-family: Arial Black ; 
+    padding-left: 0px;
+}
+ul{
+    margin: 0px;
+    padding-left: 20px;
+            display:inline-block;
+}
+.nn{
+    height: 30px;
+    
+}
+.op{
+    list-style-type: none; 
+    display: inline-block;
+
+}
+.oop{
+    width: 100px;
+    height: auto;
+    display:inline-block;
+    outline: inherit;
+    margin-left: 300px;
+    
+}
+.zoop{
+    width: 100px;
+    height: auto;
+    display:inline-block;
+    outline: inherit;
+    margin: auto;
+    
+}
+.last{
+    color: white;
+    text-align: center;
+    font-family: Arial Black;
+}
+.vid{
+    text-align: right;
+    margin: 0px;
+    display:inline-block;
+    padding: 0px;
+}
+.video{
+    margin-left: 350px;
+}
+.regist{
+    background: url(oplatafon.jpg);
+    width: 350px;
+    height: 400px;
+    margin-left: 1300px;
+    border-radius: 20px;
+}   
+.none{
+        width: 350px;
+    height: 400px;
+}
+.avat{
+    background: url(23.jpg);
+    width: 50%;
+    height: 50%;
+    border-radius: 80px;
+}
+ .ivan {
+  position: relative;
+  left: -70px;
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
+  transition: left .2s linear;
+}
+
+div:hover {
+  left: 0px;
+}
+.kol{
+    width: 150px;
+}
+.title{
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
